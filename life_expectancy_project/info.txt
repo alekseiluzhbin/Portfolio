@@ -1,0 +1,13 @@
+The World Health Organization (WHO)’s Global Health Observatory (GHO) data repository
+tracks life expectancy for countries worldwide by following health status
+and many other related factors.
+
+This dataset covers a variety of indicators for all countries from 2000 to 2015 including:
+-immunization factors
+-mortality factors
+-economic factors
+-social factors
+-other health-related factors
+
+Life expectancy is expressed in years, and hence it is a number.
+This means that in order to build a predictive model one needs to use regression.
