@@ -1,6 +1,6 @@
+Project Goals.
 Let’s take a look at the Medical Cost Personal Datasets dataset:
 https://www.kaggle.com/datasets/mirichoi0218/insurance
-
 We would like to predict the individual medical costs (charges) given the rest of the columns/features.
 Since charges represent continuous values (in dollars), we’re performing a regression task.
 

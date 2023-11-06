@@ -1,0 +1,12 @@
+By analyzing the parameters in this graduate admissions dataset,
+we use TensorFlow with Keras to create a model that can evaluate the chances of an applicant being admitted:
+https://www.kaggle.com/datasets/mohansacharya/graduate-admissions
+
+This data provides information about 500 applications for various universities
+and what their chance of admittance is. This dataset has nine different columns:
+- GRE test score;
+- TOEFL test score;
+- Evaluated university rating;
+- etc.
+
+This is a regression problem because the probability of being admitted is a continuous label between 0 and 1.
