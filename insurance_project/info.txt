@@ -1,0 +1,17 @@
+Let’s take a look at the Medical Cost Personal Datasets dataset:
+https://www.kaggle.com/datasets/mirichoi0218/insurance
+
+We would like to predict the individual medical costs (charges) given the rest of the columns/features.
+Since charges represent continuous values (in dollars), we’re performing a regression task.
+
+Hyperparameter tuning: epochs with early stopping.
+The number of epochs is a hyperparameter representing the number of complete passes through the training dataset.
+Too many epochs can lead to overfitting, and too few to underfitting.
+One trick is to use early stopping: when the training performance reaches the plateau or starts degrading, the learning stops.
+
+Baseline.
+A baseline result is the simplest possible prediction.
+Baselines give us an idea of whether our model has a reasonable performance.
+Since we are focused on a regression task, we can use averages or medians of the class distribution known as central tendency measures as the result for all predictions.
+
+The result of the baseline is $9,190, and we definitely did better than this: around $3,000.
