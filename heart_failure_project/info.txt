@@ -1,0 +1,8 @@
+In this project we use a dataset from Kaggle:
+https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data
+
+We will create a Keras Sequential classification model in TensorFlow
+to predict the survival of patients with heart failure from serum creatinine
+and ejection fraction, and other factors such as age, anemia, diabetes, and so on.
+
+DEATH_EVENT - the column we need to predict.

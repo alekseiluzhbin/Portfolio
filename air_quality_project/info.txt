@@ -1,4 +1,4 @@
-We will be working with the air_quality_train.csv and air_quality_test.csv data sets.
+We will be working with the data_train.csv and data_test.csv sets.
 
 We will create a Keras Sequential classification model in TensorFlow that will predict the air quality
 dependent on the different element compounds found in the air (e.g. Carbon monoxide, Benzene).
