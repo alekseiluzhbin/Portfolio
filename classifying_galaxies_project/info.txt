@@ -1,0 +1,21 @@
+In this project we'll build a Convolutional Neural Network to classify deep-space galaxies
+using the image data curated by Galaxy Zoo project:
+https://www.zooniverse.org/projects/zookeeper/galaxy-zoo/
+
+The data falls into four classes ("Normal", "Ringed", "Merger", "Other"):
+- Galaxies with no identifying characteristics;
+- Galaxies with rings;
+- Galactic mergers;
+- Other, irregular celestial bodies.
+
+The last dimension of the input data is 3: the image data is RGB/in color.
+The last dimension of the labels is 4, and there are four classes:
+the labels are one-hot vectors. For example, [1,0,0,0] is "Normal" galaxy.
+
+After training the model’s accuracy should be around 0.60-0.70, and AUC should fall into the 0.80-0.90 range.
+Accuracy tells us that the model assigns the highest probability to the correct class more than 60% of the time.
+AUC tells us that for a random galaxy there is more than an 80% chance the model would assign
+a higher probability to a true class than to a false one.
+
+
+
