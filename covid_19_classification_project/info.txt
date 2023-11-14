@@ -1,0 +1,18 @@
+At our disposal, we have a set X-ray lung scans with examples of patients
+who had either pneumonia, Covid-19, or no illness:
+
+https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset
+
+Using the Keras module, we will create a classification model that outputs a diagnosis
+based on a patient’s X-ray scan.
+
+The dataset folders are split into train and test folders
+and there are three different folders within them:
+- Covid
+- Normal
+- Viral Pneumonia
+
+These are each a different class that our learning model can output,
+indicating a multi-class classification problem.
+
+All the X-ray scans are in grayscale.
